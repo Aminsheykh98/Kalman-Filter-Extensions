@@ -9,25 +9,35 @@ This repository heavily relies on [jax.vamp](https://ericmjl.github.io/dl-worksh
 ### Diagram
 The system is shown in the figure below:
 
-![Inverted pendulum Diagram](images/inverted-pendulum.png)
+<div align="center">
+	<img src="images/inverted-pendulum.png">
+</div>
 
 ### Equations
 And nonlinear state space equations are:
 
-![SSM Equations](images/ssm-eq.png)
+<div align="center">
+	<img src="images/ssm-eq.png">
+</div>
 
 With the output equations as:
 
-![SSM Output Equations](images/ssm-out-eq.png)
+<div align="center">
+  <img src="images/ssm-out-eq.png">
+</div>
 
 ### Parameters
 Considering states with zero initial values and model's parameters as following:
 
-![Model's Parameters](images/model-param.png)
+<div align="center">
+  <img src="images/model-param.png">
+</div>
 
 Discretization of the model has been done with 1ms sampling interval. And the Process (Q) and Measurement (R) noises are added to system equations with the following covariance matrices:
 
-![Noise Covariances](images/noise-cov.png)
+<div align="center">
+  <img src="images/noise-cov.png">
+</div>
 
 ## Code Structure
 Kalman-Filter-Extensions/<br>
